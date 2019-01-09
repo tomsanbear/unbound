@@ -11,7 +11,7 @@ import (
 	"github.com/coredns/coredns/request"
 
 	"github.com/miekg/dns"
-	"github.com/miekg/unbound"
+	"github.com/tomsanbear/unbound"
 )
 
 var log = clog.NewWithPlugin("unbound")
